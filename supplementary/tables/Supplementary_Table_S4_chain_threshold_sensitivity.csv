@@ -1,0 +1,7 @@
+﻿MIN_CHAIN_COUNT,High-risk local chains (n),Main analysis default,Section,Comparison,Top-10 overlap (n),Top-10 Jaccard similarity
+2.0,66.0,,Threshold summary,,,
+3.0,21.0,Yes,Threshold summary,,,
+4.0,12.0,,Threshold summary,,,
+,,,Top-10 stability,threshold_2_vs_3,10.0,1.0
+,,,Top-10 stability,threshold_3_vs_4,10.0,1.0
+,,,Top-10 stability,threshold_2_vs_4,10.0,1.0

@@ -1,0 +1,24 @@
+﻿Metric,Value,Section,Weighting scheme,Rank,Node label (English),Node ID (original)
+Prevention-side Top-10 node overlap (main vs equal weighting),9.0,Summary metrics,,,,
+Prevention-side Top-10 Jaccard similarity,0.818,Summary metrics,,,,
+Spearman rank correlation (all prevention-side nodes),0.994,Summary metrics,,,,
+,,Top-10 prevention-side nodes,Main weights,1.0,Shift: Day shift,Shift:早班
+,,Top-10 prevention-side nodes,Main weights,2.0,Shift: Middle shift,Shift:中班
+,,Top-10 prevention-side nodes,Main weights,3.0,Shift: Night shift,Shift:夜班
+,,Top-10 prevention-side nodes,Main weights,4.0,Location: Coalface,Loc:采煤工作面
+,,Top-10 prevention-side nodes,Main weights,5.0,Activity: Tunneling,Act:掘进
+,,Top-10 prevention-side nodes,Main weights,6.0,Activity: Coal mining,Act:采煤
+,,Top-10 prevention-side nodes,Main weights,7.0,Activity: Transportation,Act:运输
+,,Top-10 prevention-side nodes,Main weights,8.0,Job: Tunneling worker,Job:掘进工
+,,Top-10 prevention-side nodes,Main weights,9.0,Location: Chairlift roadway,Loc:猴车巷
+,,Top-10 prevention-side nodes,Main weights,10.0,Activity: Installation and recovery,Act:安装回收
+,,Top-10 prevention-side nodes,Equal weights,1.0,Shift: Day shift,Shift:早班
+,,Top-10 prevention-side nodes,Equal weights,2.0,Shift: Middle shift,Shift:中班
+,,Top-10 prevention-side nodes,Equal weights,3.0,Shift: Night shift,Shift:夜班
+,,Top-10 prevention-side nodes,Equal weights,4.0,Activity: Tunneling,Act:掘进
+,,Top-10 prevention-side nodes,Equal weights,5.0,Location: Coalface,Loc:采煤工作面
+,,Top-10 prevention-side nodes,Equal weights,6.0,Activity: Coal mining,Act:采煤
+,,Top-10 prevention-side nodes,Equal weights,7.0,Activity: Installation and recovery,Act:安装回收
+,,Top-10 prevention-side nodes,Equal weights,8.0,Location: Chairlift roadway,Loc:猴车巷
+,,Top-10 prevention-side nodes,Equal weights,9.0,Activity: Transportation,Act:运输
+,,Top-10 prevention-side nodes,Equal weights,10.0,Job: Deputy section chief,Job:副区长

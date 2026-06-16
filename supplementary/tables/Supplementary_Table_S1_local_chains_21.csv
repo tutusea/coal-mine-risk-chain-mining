@@ -1,0 +1,22 @@
+﻿Rank,Local chain (English),Local chain (original),Chain template,Chain type,Count,Proportion,Non-minor injury count,Non-minor injury rate,Severe injury count,Severe injury rate,Average injury-severity score
+1,Job: Coal miner -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Job:采煤工 -> Loc:采煤工作面 -> Act:采煤 -> Sev:轻伤,chain_local_4,Prevention-side context chain,10,0.0427,10,1.0,0,0.0,2.0
+2,Shift: Middle shift -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Shift:中班 -> Loc:采煤工作面 -> Act:采煤 -> Sev:轻伤,chain_local_5,Prevention-side context chain,8,0.0342,8,1.0,0,0.0,2.0
+3,Activity: Transportation -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Act:运输 -> Body:脚 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,5,0.0214,5,1.0,0,0.0,2.0
+4,Activity: Coal mining -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Act:采煤 -> Body:脚 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,5,0.0214,5,1.0,0,0.0,2.0
+5,Job: Coal miner -> Location: Coalface -> Activity: Coal mining -> HazardMode: Struck by object -> Severity: Mild,Job:采煤工 -> Loc:采煤工作面 -> Act:采煤 -> HazardMode:砸 -> Sev:轻伤,chain_local_4,Process-related chain,5,0.0214,5,1.0,0,0.0,2.0
+6,Job: Tunneling worker -> Location: Heading face -> Activity: Tunneling -> Severity: Severe,Job:掘进工 -> Loc:掘进头 -> Act:掘进 -> Sev:重伤,chain_local_4,Severe-injury context chain,4,0.0171,4,1.0,4,1.0,3.0
+7,Activity: Installation and recovery -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Act:安装回收 -> Body:脚 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,4,0.0171,4,1.0,0,0.0,2.0
+8,Activity: Tunneling -> Body: Leg -> InjuryForm: Fracture -> Severity: Mild,Act:掘进 -> Body:腿 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,4,0.0171,4,1.0,0,0.0,2.0
+9,Job: Tunneling worker -> Location: Heading face -> Activity: Tunneling -> HazardMode: Struck by object -> Severity: Mild,Job:掘进工 -> Loc:掘进头 -> Act:掘进 -> HazardMode:砸 -> Sev:轻伤,chain_local_4,Process-related chain,4,0.0171,4,1.0,0,0.0,2.0
+10,Location: Coalface -> Activity: Coal mining -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Loc:采煤工作面 -> Act:采煤 -> Body:脚 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_1,Mixed local chain,4,0.0171,4,1.0,0,0.0,2.0
+11,Shift: Night shift -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Shift:夜班 -> Loc:采煤工作面 -> Act:采煤 -> Sev:轻伤,chain_local_5,Prevention-side context chain,4,0.0171,4,1.0,0,0.0,2.0
+12,Shift: Day shift -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Shift:早班 -> Loc:采煤工作面 -> Act:采煤 -> Sev:轻伤,chain_local_5,Prevention-side context chain,4,0.0171,4,1.0,0,0.0,2.0
+13,Activity: Tunneling -> Body: Hand -> InjuryForm: Fracture -> Severity: Mild,Act:掘进 -> Body:手 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,3,0.0128,3,1.0,0,0.0,2.0
+14,Activity: Tunneling -> HazardMode: Struck by object -> Body: Leg -> Severity: Mild,Act:掘进 -> HazardMode:砸 -> Body:腿 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,3,0.0128,3,1.0,0,0.0,2.0
+15,Activity: Walking -> HazardMode: Fall/slip -> Body: Leg -> Severity: Mild,Act:行走 -> HazardMode:摔 -> Body:腿 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,3,0.0128,3,1.0,0,0.0,2.0
+16,Activity: Transportation -> Body: Hand -> InjuryForm: Fracture -> Severity: Mild,Act:运输 -> Body:手 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,3,0.0128,3,1.0,0,0.0,2.0
+17,Activity: Coal mining -> Body: Head -> InjuryForm: Fracture -> Severity: Mild,Act:采煤 -> Body:头 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_3,Consequence-linked pathway,3,0.0128,3,1.0,0,0.0,2.0
+18,Job: Support worker -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Job:支架工 -> Loc:采煤工作面 -> Act:采煤 -> Sev:轻伤,chain_local_4,Prevention-side context chain,3,0.0128,3,1.0,0,0.0,2.0
+19,Location: Heading face -> Activity: Tunneling -> HazardMode: Struck by object -> Body: Leg -> Severity: Mild,Loc:掘进头 -> Act:掘进 -> HazardMode:砸 -> Body:腿 -> Sev:轻伤,chain_local_1,Mixed local chain,3,0.0128,3,1.0,0,0.0,2.0
+20,Location: Coalface -> Activity: Coal mining -> Body: Head -> InjuryForm: Fracture -> Severity: Mild,Loc:采煤工作面 -> Act:采煤 -> Body:头 -> InjuryForm:骨折 -> Sev:轻伤,chain_local_1,Mixed local chain,3,0.0128,3,1.0,0,0.0,2.0
+21,Shift: Day shift -> Location: Coalface -> Activity: Coal mining -> HazardMode: Struck by object -> Severity: Mild,Shift:早班 -> Loc:采煤工作面 -> Act:采煤 -> HazardMode:砸 -> Sev:轻伤,chain_local_5,Process-related chain,3,0.0128,3,1.0,0,0.0,2.0

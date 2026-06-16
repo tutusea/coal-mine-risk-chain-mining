@@ -1,0 +1,7 @@
+﻿Support-count threshold (rule_count and antecedent_count),Robust prevention-side rules (n),Main analysis default,Section,Comparison,Top-10 overlap (n),Top-10 Jaccard similarity
+5.0,100.0,,Threshold summary,,,
+8.0,51.0,Yes,Threshold summary,,,
+10.0,38.0,,Threshold summary,,,
+,,,Top-10 stability,threshold_5_vs_8,2.0,0.111
+,,,Top-10 stability,threshold_8_vs_10,3.0,0.176
+,,,Top-10 stability,threshold_5_vs_10,1.0,0.053

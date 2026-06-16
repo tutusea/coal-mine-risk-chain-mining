@@ -1,0 +1,11 @@
+﻿Rank,Local chain,Chain type,Count,Non-minor injury rate
+1,Job: Coal miner -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Prevention-side context chain,10,100.0%
+2,Shift: Middle shift -> Location: Coalface -> Activity: Coal mining -> Severity: Mild,Prevention-side context chain,8,100.0%
+3,Activity: Transportation -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Consequence-linked pathway,5,100.0%
+4,Activity: Coal mining -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Consequence-linked pathway,5,100.0%
+5,Job: Coal miner -> Location: Coalface -> Activity: Coal mining -> HazardMode: Struck by object -> Severity: Mild,Process-related chain,5,100.0%
+6,Job: Tunneling worker -> Location: Heading face -> Activity: Tunneling -> Severity: Severe,Severe-injury context chain,4,100.0%
+7,Activity: Installation and recovery -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Consequence-linked pathway,4,100.0%
+8,Activity: Tunneling -> Body: Leg -> InjuryForm: Fracture -> Severity: Mild,Consequence-linked pathway,4,100.0%
+9,Job: Tunneling worker -> Location: Heading face -> Activity: Tunneling -> HazardMode: Struck by object -> Severity: Mild,Process-related chain,4,100.0%
+10,Location: Coalface -> Activity: Coal mining -> Body: Foot -> InjuryForm: Fracture -> Severity: Mild,Mixed local chain,4,100.0%

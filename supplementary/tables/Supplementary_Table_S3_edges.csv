@@ -1,0 +1,382 @@
+﻿Rank,source,target,source_type,target_type,weight,edge_severity_rate,average_severity_score,confidence_to_severe,lift_to_severe,Source (English),Target (English),edge_risk_score
+1,InjuryForm:骨折,Sev:轻伤,InjuryForm,Sev,56.0,1.0,2.0,1.0,1.8571428571428568,InjuryForm: Fracture,Severity: Mild,56.0
+2,Team:掘进队,Job:掘进工,Team,Job,51.0,0.6470588235294118,1.7647058823529411,0.6470588235294118,1.2016806722689075,Team: Tunneling team,Job: Tunneling worker,33.0
+3,Team:采煤队,Job:采煤工,Team,Job,42.0,0.6428571428571429,1.738095238095238,0.6428571428571429,1.1938775510204085,Team: Coal mining team,Job: Coal miner,27.000000000000004
+4,Loc:采煤工作面,Act:采煤,Loc,Act,30.0,0.8666666666666667,1.933333333333333,0.8666666666666667,1.6095238095238096,Location: Coalface,Activity: Coal mining,26.0
+5,Body:脚,InjuryForm:骨折,Body,InjuryForm,18.0,1.0,2.0,1.0,1.8571428571428568,Body: Foot,InjuryForm: Fracture,18.0
+6,Body:腿,InjuryForm:骨折,Body,InjuryForm,18.0,1.0,2.1666666666666665,1.0,1.8571428571428568,Body: Leg,InjuryForm: Fracture,18.0
+7,Shift:中班,Loc:采煤工作面,Shift,Loc,19.0,0.8947368421052632,2.0526315789473686,0.8947368421052632,1.661654135338346,Shift: Middle shift,Location: Coalface,17.0
+8,Job:掘进工,Shift:早班,Job,Shift,33.0,0.5151515151515151,1.5757575757575757,0.5151515151515151,0.9567099567099568,Job: Tunneling worker,Shift: Day shift,17.0
+9,Loc:掘进头,Act:掘进,Loc,Act,21.0,0.6666666666666666,1.9047619047619049,0.6666666666666666,1.238095238095238,Location: Heading face,Activity: Tunneling,14.0
+10,Body:腿,Sev:轻伤,Body,Sev,14.0,1.0,2.0,1.0,1.8571428571428568,Body: Leg,Severity: Mild,14.0
+11,InjuryForm:骨折,Sev:重伤,InjuryForm,Sev,13.0,1.0,3.0,1.0,1.8571428571428568,InjuryForm: Fracture,Severity: Severe,13.0
+12,Job:采煤工,Shift:中班,Job,Shift,15.0,0.8,1.933333333333333,0.8,1.4857142857142858,Job: Coal miner,Shift: Middle shift,12.0
+13,Body:手,InjuryForm:骨折,Body,InjuryForm,12.0,0.9166666666666666,1.9166666666666667,0.9166666666666666,1.7023809523809523,Body: Hand,InjuryForm: Fracture,11.0
+14,Shift:早班,Loc:轨道顺槽,Shift,Loc,26.0,0.4230769230769231,1.4615384615384617,0.4230769230769231,0.7857142857142857,Shift: Day shift,Location: Track gate road,11.0
+15,Job:掘进工,Shift:夜班,Job,Shift,16.0,0.625,1.8125,0.625,1.1607142857142858,Job: Tunneling worker,Shift: Night shift,10.0
+16,Job:采煤工,Shift:早班,Job,Shift,22.0,0.4545454545454545,1.5,0.4545454545454545,0.8441558441558441,Job: Coal miner,Shift: Day shift,9.999999999999998
+17,Shift:早班,Loc:掘进头,Shift,Loc,16.0,0.5625,1.6875,0.5625,1.0446428571428572,Shift: Day shift,Location: Heading face,9.0
+18,Team:开拓队,Job:开拓工,Team,Job,24.0,0.375,1.4583333333333333,0.375,0.6964285714285715,Team: Development team,Job: Development worker,9.0
+19,Job:掘进工,Shift:中班,Job,Shift,10.0,0.9,2.0,0.9,1.6714285714285717,Job: Tunneling worker,Shift: Middle shift,9.0
+20,Job:机电工,Shift:早班,Job,Shift,14.0,0.5714285714285714,1.5714285714285714,0.5714285714285714,1.0612244897959184,Job: Mechanical and electrical worker,Shift: Day shift,8.0
+21,Body:多处骨头,InjuryForm:骨折,Body,InjuryForm,8.0,1.0,3.0,1.0,1.8571428571428568,Body: Multiple bones,InjuryForm: Fracture,8.0
+22,Body:脚,Sev:轻伤,Body,Sev,8.0,1.0,2.0,1.0,1.8571428571428568,Body: Foot,Severity: Mild,8.0
+23,Shift:夜班,Loc:采煤工作面,Shift,Loc,9.0,0.8888888888888888,1.8888888888888888,0.8888888888888888,1.6507936507936507,Shift: Night shift,Location: Coalface,8.0
+24,Shift:夜班,Loc:掘进头,Shift,Loc,10.0,0.7,2.0,0.7,1.3,Shift: Night shift,Location: Heading face,7.0
+25,Shift:中班,Loc:轨道顺槽,Shift,Loc,13.0,0.5384615384615384,1.6153846153846154,0.5384615384615384,1.0,Shift: Middle shift,Location: Track gate road,7.0
+26,Job:采煤工,Shift:夜班,Job,Shift,9.0,0.7777777777777778,1.8888888888888888,0.7777777777777778,1.4444444444444446,Job: Coal miner,Shift: Night shift,7.0
+27,Shift:早班,Loc:采煤工作面,Shift,Loc,10.0,0.7,1.7,0.7,1.3,Shift: Day shift,Location: Coalface,7.0
+28,Body:手,Sev:轻伤,Body,Sev,6.0,1.0,2.0,1.0,1.8571428571428568,Body: Hand,Severity: Mild,6.0
+29,Team:通风队,Job:通风工,Team,Job,11.0,0.5454545454545454,1.7272727272727273,0.5454545454545454,1.0129870129870129,Team: Ventilation team,Job: Ventilation worker,6.0
+30,HazardMode:砸,Body:腿,HazardMode,Body,10.0,0.6,1.6,0.6,1.1142857142857143,HazardMode: Struck by object,Body: Leg,6.0
+31,Shift:早班,Loc:运输顺槽,Shift,Loc,14.0,0.4285714285714285,1.4285714285714286,0.4285714285714285,0.7959183673469387,Shift: Day shift,Location: Transport gate road,5.999999999999999
+32,Act:采煤,HazardMode:砸,Act,HazardMode,10.0,0.5,1.5,0.5,0.9285714285714286,Activity: Coal mining,HazardMode: Struck by object,5.0
+33,Act:采煤,Body:脚,Act,Body,5.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Foot,5.0
+34,Act:行走,HazardMode:摔,Act,HazardMode,12.0,0.4166666666666667,1.4166666666666667,0.4166666666666667,0.7738095238095238,Activity: Walking,HazardMode: Fall/slip,5.0
+35,Team:修护队,Job:检修工,Team,Job,19.0,0.2631578947368421,1.3157894736842106,0.2631578947368421,0.4887218045112781,Team: Roadway support team,Job: Repair worker,5.0
+36,Act:运输,Body:脚,Act,Body,5.0,1.0,2.0,1.0,1.8571428571428568,Activity: Transportation,Body: Foot,5.0
+37,Act:掘进,Body:腿,Act,Body,5.0,1.0,2.2,1.0,1.8571428571428568,Activity: Tunneling,Body: Leg,5.0
+38,Body:眼,Sev:轻伤,Body,Sev,5.0,1.0,2.0,1.0,1.8571428571428568,Body: Eye,Severity: Mild,5.0
+39,Shift:中班,Loc:各类硐室,Shift,Loc,5.0,1.0,2.0,1.0,1.8571428571428568,Shift: Middle shift,Location: Various chambers,5.0
+40,HazardMode:摔,Body:腿,HazardMode,Body,8.0,0.625,1.625,0.625,1.1607142857142858,HazardMode: Fall/slip,Body: Leg,5.0
+41,Body:胸,Sev:轻伤,Body,Sev,5.0,1.0,2.0,1.0,1.8571428571428568,Body: Chest,Severity: Mild,5.0
+42,Job:检修工,Shift:早班,Job,Shift,16.0,0.3125,1.3125,0.3125,0.5803571428571429,Job: Repair worker,Shift: Day shift,5.0
+43,Loc:采煤工作面,Act:安装回收,Loc,Act,5.0,1.0,2.2,1.0,1.8571428571428568,Location: Coalface,Activity: Installation and recovery,5.0
+44,Shift:早班,Loc:轨道大巷,Shift,Loc,11.0,0.4545454545454545,1.4545454545454546,0.4545454545454545,0.8441558441558441,Shift: Day shift,Location: Main haulage roadway,4.999999999999999
+45,Job:检修工,Shift:中班,Job,Shift,11.0,0.4545454545454545,1.5454545454545454,0.4545454545454545,0.8441558441558441,Job: Repair worker,Shift: Middle shift,4.999999999999999
+46,Shift:夜班,Loc:运输顺槽,Shift,Loc,6.0,0.6666666666666666,2.0,0.6666666666666666,1.238095238095238,Shift: Night shift,Location: Transport gate road,4.0
+47,Body:头,InjuryForm:骨折,Body,InjuryForm,4.0,1.0,2.25,1.0,1.8571428571428568,Body: Head,InjuryForm: Fracture,4.0
+48,Body:手,InjuryForm:离断,Body,InjuryForm,4.0,1.0,2.0,1.0,1.8571428571428568,Body: Hand,InjuryForm: Amputation,4.0
+49,Act:采煤,Body:手,Act,Body,4.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Hand,4.0
+50,Job:运输工,Shift:早班,Job,Shift,6.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Job: Transport worker,Shift: Day shift,4.0
+51,Loc:轨道顺槽,Act:检修,Loc,Act,6.0,0.6666666666666666,2.0,0.6666666666666666,1.238095238095238,Location: Track gate road,Activity: Maintenance,4.0
+52,Act:运输,Body:手,Act,Body,4.0,1.0,2.0,1.0,1.8571428571428568,Activity: Transportation,Body: Hand,4.0
+53,InjuryForm:内脏破裂,Sev:重伤,InjuryForm,Sev,4.0,1.0,3.0,1.0,1.8571428571428568,InjuryForm: Internal organ rupture,Severity: Severe,4.0
+54,InjuryForm:离断,Sev:轻伤,InjuryForm,Sev,4.0,1.0,2.0,1.0,1.8571428571428568,InjuryForm: Amputation,Severity: Mild,4.0
+55,Job:机电工,Shift:中班,Job,Shift,9.0,0.4444444444444444,1.4444444444444444,0.4444444444444444,0.8253968253968254,Job: Mechanical and electrical worker,Shift: Middle shift,4.0
+56,Job:开拓工,Shift:早班,Job,Shift,10.0,0.4,1.4,0.4,0.7428571428571429,Job: Development worker,Shift: Day shift,4.0
+57,Job:通风工,Shift:早班,Job,Shift,9.0,0.4444444444444444,1.5555555555555556,0.4444444444444444,0.8253968253968254,Job: Ventilation worker,Shift: Day shift,4.0
+58,Body:肋骨,InjuryForm:骨折,Body,InjuryForm,5.0,0.8,1.8,0.8,1.4857142857142858,Body: Ribs,InjuryForm: Fracture,4.0
+59,Team:采煤队,Job:机电工,Team,Job,6.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Team: Coal mining team,Job: Mechanical and electrical worker,4.0
+60,Act:掘进,HazardMode:砸,Act,HazardMode,6.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Activity: Tunneling,HazardMode: Struck by object,4.0
+61,Act:安装回收,Body:脚,Act,Body,4.0,1.0,2.0,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Foot,4.0
+62,Team:机电队,Job:机电工,Team,Job,8.0,0.5,1.5,0.5,0.9285714285714286,Team: Mechanical and electrical team,Job: Mechanical and electrical worker,4.0
+63,HazardMode:砸,Body:脚,HazardMode,Body,21.0,0.1904761904761904,1.1904761904761905,0.1904761904761904,0.3537414965986393,HazardMode: Struck by object,Body: Foot,3.9999999999999987
+64,HazardMode:碰,Body:胸,HazardMode,Body,3.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Collision,Body: Chest,3.0
+65,Job:开拓工,Shift:夜班,Job,Shift,8.0,0.375,1.5,0.375,0.6964285714285715,Job: Development worker,Shift: Night shift,3.0
+66,Loc:轨道顺槽,Act:行走,Loc,Act,6.0,0.5,1.5,0.5,0.9285714285714286,Location: Track gate road,Activity: Walking,3.0
+67,Act:掘进,Body:多处骨头,Act,Body,3.0,1.0,3.0,1.0,1.8571428571428568,Activity: Tunneling,Body: Multiple bones,3.0
+68,Team:掘进队,Job:班长,Team,Job,4.0,0.75,2.0,0.75,1.392857142857143,Team: Tunneling team,Job: Work team leader,3.0
+69,Act:掘进,Body:手,Act,Body,4.0,0.75,1.75,0.75,1.392857142857143,Activity: Tunneling,Body: Hand,3.0
+70,Shift:早班,Loc:轨道上山,Shift,Loc,3.0,1.0,2.333333333333333,1.0,1.8571428571428568,Shift: Day shift,Location: Track uphill roadway,3.0
+71,Body:头,Sev:轻伤,Body,Sev,3.0,1.0,2.0,1.0,1.8571428571428568,Body: Head,Severity: Mild,3.0
+72,Act:掘进,HazardMode:碰,Act,HazardMode,5.0,0.6,1.6,0.6,1.1142857142857143,Activity: Tunneling,HazardMode: Collision,3.0
+73,HazardMode:碰,Body:眼,HazardMode,Body,10.0,0.3,1.3,0.3,0.5571428571428572,HazardMode: Collision,Body: Eye,3.0
+74,Loc:轨道大巷,Act:行走,Loc,Act,3.0,1.0,2.333333333333333,1.0,1.8571428571428568,Location: Main haulage roadway,Activity: Walking,3.0
+75,Loc:轨道大巷,Act:运输,Loc,Act,3.0,1.0,2.0,1.0,1.8571428571428568,Location: Main haulage roadway,Activity: Transportation,3.0
+76,Loc:轨道顺槽,Act:安装回收,Loc,Act,6.0,0.5,1.5,0.5,0.9285714285714286,Location: Track gate road,Activity: Installation and recovery,3.0
+77,Body:手臂,Sev:轻伤,Body,Sev,3.0,1.0,2.0,1.0,1.8571428571428568,Body: Arm,Severity: Mild,3.0
+78,Loc:副井,Act:运输,Loc,Act,3.0,1.0,2.0,1.0,1.8571428571428568,Location: Auxiliary shaft,Activity: Transportation,3.0
+79,Team:通风队,Job:机电工,Team,Job,4.0,0.75,1.75,0.75,1.392857142857143,Team: Ventilation team,Job: Mechanical and electrical worker,3.0
+80,Shift:中班,Loc:掘进头,Shift,Loc,4.0,0.75,2.0,0.75,1.392857142857143,Shift: Middle shift,Location: Heading face,3.0
+81,Job:班长,Shift:中班,Job,Shift,3.0,1.0,2.6666666666666665,1.0,1.8571428571428568,Job: Work team leader,Shift: Middle shift,3.0
+82,Shift:早班,Loc:副井,Shift,Loc,6.0,0.5,1.5,0.5,0.9285714285714286,Shift: Day shift,Location: Auxiliary shaft,3.0
+83,Act:行走,Body:腿,Act,Body,3.0,1.0,2.333333333333333,1.0,1.8571428571428568,Activity: Walking,Body: Leg,3.0
+84,Team:采煤队,Job:运输工,Team,Job,3.0,1.0,2.0,1.0,1.8571428571428568,Team: Coal mining team,Job: Transport worker,3.0
+85,Loc:运输顺槽,Act:掘进,Loc,Act,4.0,0.75,2.0,0.75,1.392857142857143,Location: Transport gate road,Activity: Tunneling,3.0
+86,Act:安装回收,Body:腿,Act,Body,3.0,1.0,2.333333333333333,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Leg,3.0
+87,Team:采煤队,Job:支架工,Team,Job,4.0,0.75,1.75,0.75,1.392857142857143,Team: Coal mining team,Job: Support worker,3.0
+88,Shift:早班,Loc:各类硐室,Shift,Loc,8.0,0.375,1.375,0.375,0.6964285714285715,Shift: Day shift,Location: Various chambers,3.0
+89,Shift:中班,Loc:运输顺槽,Shift,Loc,10.0,0.3,1.4,0.3,0.5571428571428572,Shift: Middle shift,Location: Transport gate road,3.0
+90,Act:采煤,Body:头,Act,Body,3.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Head,3.0
+91,Act:安装回收,HazardMode:碰,Act,HazardMode,7.0,0.4285714285714285,1.4285714285714286,0.4285714285714285,0.7959183673469387,Activity: Installation and recovery,HazardMode: Collision,2.9999999999999996
+92,Job:开拓工,Shift:中班,Job,Shift,7.0,0.4285714285714285,1.5714285714285714,0.4285714285714285,0.7959183673469387,Job: Development worker,Shift: Middle shift,2.9999999999999996
+93,Loc:轨道顺槽,Act:采煤,Loc,Act,5.0,0.4,1.4,0.4,0.7428571428571429,Location: Track gate road,Activity: Coal mining,2.0
+94,Loc:运输顺槽,Act:安装回收,Loc,Act,6.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Location: Transport gate road,Activity: Installation and recovery,2.0
+95,Loc:轨道顺槽,Act:运输,Loc,Act,3.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Location: Track gate road,Activity: Transportation,2.0
+96,HazardMode:砸,Body:头,HazardMode,Body,2.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Struck by object,Body: Head,2.0
+97,Loc:运输顺槽,Act:搬运,Loc,Act,4.0,0.5,1.75,0.5,0.9285714285714286,Location: Transport gate road,Activity: Material handling,2.0
+98,HazardMode:挤,Body:手,HazardMode,Body,25.0,0.08,1.08,0.08,0.1485714285714285,HazardMode: Squeezing,Body: Hand,2.0
+99,HazardMode:摔,Body:脊椎,HazardMode,Body,2.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Fall/slip,Body: Spine,2.0
+100,HazardMode:砸,Body:手,HazardMode,Body,10.0,0.2,1.2,0.2,0.3714285714285714,HazardMode: Struck by object,Body: Hand,2.0
+101,HazardMode:碰,Body:脚,HazardMode,Body,5.0,0.4,1.4,0.4,0.7428571428571429,HazardMode: Collision,Body: Foot,2.0
+102,Act:开拓,HazardMode:碰,Act,HazardMode,4.0,0.5,1.5,0.5,0.9285714285714286,Activity: Development driving,HazardMode: Collision,2.0
+103,Loc:轨道顺槽,Act:掘进,Loc,Act,3.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Location: Track gate road,Activity: Tunneling,2.0
+104,Loc:各类硐室,Act:运输,Loc,Act,2.0,1.0,2.0,1.0,1.8571428571428568,Location: Various chambers,Activity: Transportation,2.0
+105,Loc:开拓迎头,Act:开拓,Loc,Act,9.0,0.2222222222222222,1.2222222222222223,0.2222222222222222,0.4126984126984127,Location: Development face,Activity: Development driving,2.0
+106,Team:采煤队,Job:检修工,Team,Job,2.0,1.0,2.0,1.0,1.8571428571428568,Team: Coal mining team,Job: Repair worker,2.0
+107,Job:运输工,Shift:中班,Job,Shift,4.0,0.5,1.5,0.5,0.9285714285714286,Job: Transport worker,Shift: Middle shift,2.0
+108,Act:安装回收,HazardMode:砸,Act,HazardMode,10.0,0.2,1.2,0.2,0.3714285714285714,Activity: Installation and recovery,HazardMode: Struck by object,2.0
+109,Act:巷修,Body:脚,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Roadway repair,Body: Foot,2.0
+110,Act:巷修,Body:腿,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Roadway repair,Body: Leg,2.0
+111,Job:支架工,Shift:中班,Job,Shift,3.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Job: Support worker,Shift: Middle shift,2.0
+112,Team:通风队,Job:运输工,Team,Job,5.0,0.4,1.4,0.4,0.7428571428571429,Team: Ventilation team,Job: Transport worker,2.0
+113,Team:通风队,Job:电瓶车司机,Team,Job,4.0,0.5,1.5,0.5,0.9285714285714286,Team: Ventilation team,Job: Battery-locomotive driver,2.0
+114,Job:副区长,Shift:早班,Job,Shift,2.0,1.0,2.5,1.0,1.8571428571428568,Job: Deputy section chief,Shift: Day shift,2.0
+115,Team:通风队,Job:副区长,Team,Job,2.0,1.0,2.5,1.0,1.8571428571428568,Team: Ventilation team,Job: Deputy section chief,2.0
+116,HazardMode:碰,Body:腿,HazardMode,Body,6.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,HazardMode: Collision,Body: Leg,2.0
+117,Act:开拓,HazardMode:砸,Act,HazardMode,6.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Activity: Development driving,HazardMode: Struck by object,2.0
+118,Loc:轨道顺槽,Act:开拓,Loc,Act,2.0,1.0,2.0,1.0,1.8571428571428568,Location: Track gate road,Activity: Development driving,2.0
+119,Loc:运输顺槽,Act:运输,Loc,Act,2.0,1.0,2.0,1.0,1.8571428571428568,Location: Transport gate road,Activity: Transportation,2.0
+120,Loc:各类硐室,Act:安装回收,Loc,Act,5.0,0.4,1.4,0.4,0.7428571428571429,Location: Various chambers,Activity: Installation and recovery,2.0
+121,Body:内脏,InjuryForm:内脏破裂,Body,InjuryForm,2.0,1.0,3.0,1.0,1.8571428571428568,Body: Internal organs,InjuryForm: Internal organ rupture,2.0
+122,Body:脊椎,Sev:轻伤,Body,Sev,2.0,1.0,2.0,1.0,1.8571428571428568,Body: Spine,Severity: Mild,2.0
+123,Act:检修,Body:脚,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Foot,2.0
+124,Act:掘进,Body:眼,Act,Body,2.0,1.0,2.5,1.0,1.8571428571428568,Activity: Tunneling,Body: Eye,2.0
+125,Act:采煤,Body:腿,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Leg,2.0
+126,Act:检修,Body:手,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Hand,2.0
+127,Act:采煤,Body:肋骨,Act,Body,2.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Ribs,2.0
+128,Act:采煤,Body:多处骨头,Act,Body,2.0,1.0,3.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Multiple bones,2.0
+129,Act:检修,Body:多处骨头,Act,Body,2.0,1.0,3.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Multiple bones,2.0
+130,Act:运输,HazardMode:挤,Act,HazardMode,3.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Activity: Transportation,HazardMode: Squeezing,2.0
+131,Body:手臂,InjuryForm:骨折,Body,InjuryForm,2.0,1.0,2.0,1.0,1.8571428571428568,Body: Arm,InjuryForm: Fracture,2.0
+132,Shift:夜班,Loc:轨道顺槽,Shift,Loc,4.0,0.5,1.5,0.5,0.9285714285714286,Shift: Night shift,Location: Track gate road,2.0
+133,Shift:中班,Loc:轨道大巷,Shift,Loc,2.0,1.0,2.5,1.0,1.8571428571428568,Shift: Middle shift,Location: Main haulage roadway,2.0
+134,Shift:中班,Loc:轨道上山,Shift,Loc,2.0,1.0,2.0,1.0,1.8571428571428568,Shift: Middle shift,Location: Track uphill roadway,2.0
+135,Body:脊椎,InjuryForm:骨折,Body,InjuryForm,2.0,1.0,2.0,1.0,1.8571428571428568,Body: Spine,InjuryForm: Fracture,2.0
+136,Act:采煤,HazardMode:碰,Act,HazardMode,5.0,0.4,1.4,0.4,0.7428571428571429,Activity: Coal mining,HazardMode: Collision,2.0
+137,Act:掘进,HazardMode:摔,Act,HazardMode,4.0,0.5,1.5,0.5,0.9285714285714286,Activity: Tunneling,HazardMode: Fall/slip,2.0
+138,Shift:中班,Loc:副井,Shift,Loc,4.0,0.5,1.5,0.5,0.9285714285714286,Shift: Middle shift,Location: Auxiliary shaft,2.0
+139,Shift:早班,Loc:猴车巷,Shift,Loc,2.0,1.0,2.5,1.0,1.8571428571428568,Shift: Day shift,Location: Chairlift roadway,2.0
+140,Act:清理,HazardMode:摔,Act,HazardMode,3.0,0.6666666666666666,1.6666666666666667,0.6666666666666666,1.238095238095238,Activity: Cleanup,HazardMode: Fall/slip,2.0
+141,Loc:掘进头,Act:巷修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Heading face,Activity: Roadway repair,1.0
+142,Team:修护队,Job:采煤工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Roadway support team,Job: Coal miner,1.0
+143,Team:开拓队,Job:掘进工,Team,Job,2.0,0.5,1.5,0.5,0.9285714285714286,Team: Development team,Job: Tunneling worker,1.0
+144,Shift:夜班,Loc:运输大巷,Shift,Loc,1.0,1.0,2.0,1.0,1.8571428571428568,Shift: Night shift,Location: Main transport roadway,1.0
+145,Loc:各类硐室,Act:巷修,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Various chambers,Activity: Roadway repair,1.0
+146,Loc:各类硐室,Act:开拓,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Various chambers,Activity: Development driving,1.0
+147,Team:准备队,Job:班长,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Preparation team,Job: Work team leader,1.0
+148,Loc:各类硐室,Act:搬运,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Various chambers,Activity: Material handling,1.0
+149,Team:准备队,Job:准备工,Team,Job,2.0,0.5,1.5,0.5,0.9285714285714286,Team: Preparation team,Job: Preparation worker,1.0
+150,Loc:联络巷,Act:清理,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Connection roadway,Activity: Cleanup,1.0
+151,Shift:早班,Loc:主井,Shift,Loc,2.0,0.5,1.5,0.5,0.9285714285714286,Shift: Day shift,Location: Main shaft,1.0
+152,Loc:石门,Act:检修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Rock cross-cut,Activity: Maintenance,1.0
+153,Loc:各类硐室,Act:行走,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Various chambers,Activity: Walking,1.0
+154,Shift:早班,Loc:石门,Shift,Loc,2.0,0.5,1.5,0.5,0.9285714285714286,Shift: Day shift,Location: Rock cross-cut,1.0
+155,Loc:猴车巷,Act:行走,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Chairlift roadway,Activity: Walking,1.0
+156,Shift:早班,Loc:运输大巷,Shift,Loc,2.0,0.5,1.5,0.5,0.9285714285714286,Shift: Day shift,Location: Main transport roadway,1.0
+157,Loc:掘进头,Act:安装回收,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Heading face,Activity: Installation and recovery,1.0
+158,Loc:抽采巷,Act:搬运,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Gas drainage roadway,Activity: Material handling,1.0
+159,Loc:猴车巷,Act:猴车事故,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Chairlift roadway,Activity: Chairlift-related incident,1.0
+160,Loc:猴车巷,Act:检修,Loc,Act,1.0,1.0,3.0,1.0,1.8571428571428568,Location: Chairlift roadway,Activity: Maintenance,1.0
+161,Loc:掘进头,Act:运输,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Heading face,Activity: Transportation,1.0
+162,Shift:早班,Loc:运输上山,Shift,Loc,4.0,0.25,1.25,0.25,0.4642857142857143,Shift: Day shift,Location: Transport uphill roadway,1.0
+163,Loc:掘进头,Act:检修,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Heading face,Activity: Maintenance,1.0
+164,Team:采煤队,Job:班长,Team,Job,2.0,0.5,2.0,0.5,0.9285714285714286,Team: Coal mining team,Job: Work team leader,1.0
+165,Team:修护队,Job:掘进工,Team,Job,4.0,0.25,1.25,0.25,0.4642857142857143,Team: Roadway support team,Job: Tunneling worker,1.0
+166,Loc:掘进头,Act:开拓,Loc,Act,2.0,0.5,2.0,0.5,0.9285714285714286,Location: Heading face,Activity: Development driving,1.0
+167,Shift:早班,Loc:抽采巷,Shift,Loc,2.0,0.5,1.5,0.5,0.9285714285714286,Shift: Day shift,Location: Gas drainage roadway,1.0
+168,Shift:早班,Loc:开拓迎头,Shift,Loc,4.0,0.25,1.25,0.25,0.4642857142857143,Shift: Day shift,Location: Development face,1.0
+169,Loc:采煤工作面,Act:行走,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Coalface,Activity: Walking,1.0
+170,Loc:轨道上山,Act:安装回收,Loc,Act,1.0,1.0,3.0,1.0,1.8571428571428568,Location: Track uphill roadway,Activity: Installation and recovery,1.0
+171,Shift:夜班,Loc:主井,Shift,Loc,1.0,1.0,2.0,1.0,1.8571428571428568,Shift: Night shift,Location: Main shaft,1.0
+172,Team:掘进队,Job:检修工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Tunneling team,Job: Repair worker,1.0
+173,Shift:中班,Loc:运输大巷,Shift,Loc,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Shift: Middle shift,Location: Main transport roadway,1.0
+174,Loc:轨道顺槽,Act:清理,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Track gate road,Activity: Cleanup,1.0
+175,Loc:运输上山,Act:检修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Transport uphill roadway,Activity: Maintenance,1.0
+176,Loc:运输大巷,Act:掘进,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Main transport roadway,Activity: Tunneling,1.0
+177,Shift:早班,Loc:联络巷,Shift,Loc,4.0,0.25,1.25,0.25,0.4642857142857143,Shift: Day shift,Location: Connection roadway,1.0
+178,Loc:运输大巷,Act:运输,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Main transport roadway,Activity: Transportation,1.0
+179,Team:掘进队,Job:运输工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Tunneling team,Job: Transport worker,1.0
+180,Shift:中班,Loc:主井,Shift,Loc,1.0,1.0,2.0,1.0,1.8571428571428568,Shift: Middle shift,Location: Main shaft,1.0
+181,Team:掘进队,Job:采煤工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Tunneling team,Job: Coal miner,1.0
+182,Loc:运输顺槽,Act:检修,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Transport gate road,Activity: Maintenance,1.0
+183,Loc:运输顺槽,Act:清理,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Transport gate road,Activity: Cleanup,1.0
+184,Loc:运输顺槽,Act:猴车事故,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Transport gate road,Activity: Chairlift-related incident,1.0
+185,Team:机电队,Job:副区长,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Mechanical and electrical team,Job: Deputy section chief,1.0
+186,Loc:运输顺槽,Act:采煤,Loc,Act,3.0,0.3333333333333333,1.6666666666666667,0.3333333333333333,0.6190476190476191,Location: Transport gate road,Activity: Coal mining,1.0
+187,Team:掘进队,Job:机电工,Team,Job,2.0,0.5,1.5,0.5,0.9285714285714286,Team: Tunneling team,Job: Mechanical and electrical worker,1.0
+188,Shift:夜班,Loc:开拓迎头,Shift,Loc,2.0,0.5,1.5,0.5,0.9285714285714286,Shift: Night shift,Location: Development face,1.0
+189,Loc:轨道上山,Act:巷修,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Track uphill roadway,Activity: Roadway repair,1.0
+190,Team:掘进队,Job:开拓工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Tunneling team,Job: Development worker,1.0
+191,Loc:轨道上山,Act:掘进,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Track uphill roadway,Activity: Tunneling,1.0
+192,Loc:轨道上山,Act:检修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Track uphill roadway,Activity: Maintenance,1.0
+193,Loc:轨道上山,Act:清理,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Track uphill roadway,Activity: Cleanup,1.0
+194,Team:机电队,Job:运输工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Mechanical and electrical team,Job: Transport worker,1.0
+195,Loc:轨道上山,Act:猴车事故,Loc,Act,1.0,1.0,3.0,1.0,1.8571428571428568,Location: Track uphill roadway,Activity: Chairlift-related incident,1.0
+196,Loc:轨道大巷,Act:安装回收,Loc,Act,4.0,0.25,1.25,0.25,0.4642857142857143,Location: Main haulage roadway,Activity: Installation and recovery,1.0
+197,Team:机电队,Job:检修工,Team,Job,2.0,0.5,1.5,0.5,0.9285714285714286,Team: Mechanical and electrical team,Job: Repair worker,1.0
+198,Shift:夜班,Loc:轨道大巷,Shift,Loc,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Shift: Night shift,Location: Main haulage roadway,1.0
+199,Loc:轨道大巷,Act:掘进,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Main haulage roadway,Activity: Tunneling,1.0
+200,Shift:夜班,Loc:轨道上山,Shift,Loc,2.0,0.5,2.0,0.5,0.9285714285714286,Shift: Night shift,Location: Track uphill roadway,1.0
+201,Team:抽采队,Job:掘进工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Gas drainage team,Job: Tunneling worker,1.0
+202,Shift:夜班,Loc:猴车巷,Shift,Loc,1.0,1.0,2.0,1.0,1.8571428571428568,Shift: Night shift,Location: Chairlift roadway,1.0
+203,Team:抽采队,Job:机电工,Team,Job,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Team: Gas drainage team,Job: Mechanical and electrical worker,1.0
+204,Team:抽采队,Job:检修工,Team,Job,1.0,1.0,2.0,1.0,1.8571428571428568,Team: Gas drainage team,Job: Repair worker,1.0
+205,Loc:轨道顺槽,Act:巷修,Loc,Act,4.0,0.25,1.25,0.25,0.4642857142857143,Location: Track gate road,Activity: Roadway repair,1.0
+206,Loc:运输大巷,Act:行走,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Main transport roadway,Activity: Walking,1.0
+207,Act:安装回收,Body:内脏,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Internal organs,1.0
+208,Body:腰,InjuryForm:骨折,Body,InjuryForm,1.0,1.0,3.0,1.0,1.8571428571428568,Body: Lower back,InjuryForm: Fracture,1.0
+209,Act:运输,Body:肋骨,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Transportation,Body: Ribs,1.0
+210,Act:运输,HazardMode:碰,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Transportation,HazardMode: Collision,1.0
+211,Act:采煤,Body:内脏,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Internal organs,1.0
+212,Act:采煤,Body:脊椎,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,Body: Spine,1.0
+213,Act:采煤,HazardMode:挤,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,HazardMode: Squeezing,1.0
+214,Act:采煤,HazardMode:摔,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Coal mining,HazardMode: Fall/slip,1.0
+215,Body:多处骨头,InjuryForm:内脏破裂,Body,InjuryForm,1.0,1.0,3.0,1.0,1.8571428571428568,Body: Multiple bones,InjuryForm: Internal organ rupture,1.0
+216,Body:眼,InjuryForm:内脏破裂,Body,InjuryForm,1.0,1.0,3.0,1.0,1.8571428571428568,Body: Eye,InjuryForm: Internal organ rupture,1.0
+217,Body:眼,InjuryForm:骨折,Body,InjuryForm,1.0,1.0,2.0,1.0,1.8571428571428568,Body: Eye,InjuryForm: Fracture,1.0
+218,Body:肋骨,Sev:轻伤,Body,Sev,1.0,1.0,2.0,1.0,1.8571428571428568,Body: Ribs,Severity: Mild,1.0
+219,Body:背,Sev:轻伤,Body,Sev,1.0,1.0,2.0,1.0,1.8571428571428568,Body: Back,Severity: Mild,1.0
+220,Body:腿,InjuryForm:离断,Body,InjuryForm,1.0,1.0,3.0,1.0,1.8571428571428568,Body: Leg,InjuryForm: Amputation,1.0
+221,HazardMode:刮,Body:眼,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Scraping,Body: Eye,1.0
+222,HazardMode:崴,Body:脚,HazardMode,Body,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,HazardMode: Sprain/twist,Body: Foot,1.0
+223,HazardMode:挤,Body:手臂,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Squeezing,Body: Arm,1.0
+224,HazardMode:挤,Body:胸,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Squeezing,Body: Chest,1.0
+225,HazardMode:挤,Body:腿,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Squeezing,Body: Leg,1.0
+226,HazardMode:摔,Body:手,HazardMode,Body,2.0,0.5,1.5,0.5,0.9285714285714286,HazardMode: Fall/slip,Body: Hand,1.0
+227,HazardMode:摔,Body:手臂,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Fall/slip,Body: Arm,1.0
+228,HazardMode:摔,Body:肋骨,HazardMode,Body,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,HazardMode: Fall/slip,Body: Ribs,1.0
+229,HazardMode:摔,Body:背,HazardMode,Body,2.0,0.5,1.5,0.5,0.9285714285714286,HazardMode: Fall/slip,Body: Back,1.0
+230,HazardMode:摔,Body:胸,HazardMode,Body,2.0,0.5,1.5,0.5,0.9285714285714286,HazardMode: Fall/slip,Body: Chest,1.0
+231,Act:运输,Body:腿,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Transportation,Body: Leg,1.0
+232,Act:行走,Body:手臂,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Walking,Body: Arm,1.0
+233,HazardMode:碰,Body:头,HazardMode,Body,5.0,0.2,1.2,0.2,0.3714285714285714,HazardMode: Collision,Body: Head,1.0
+234,Act:行走,Body:手,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Walking,Body: Hand,1.0
+235,Act:安装回收,Body:手,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Hand,1.0
+236,Act:安装回收,Body:肋骨,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Ribs,1.0
+237,Act:安装回收,Body:脊椎,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Installation and recovery,Body: Spine,1.0
+238,Act:巷修,HazardMode:砸,Act,HazardMode,5.0,0.2,1.2,0.2,0.3714285714285714,Activity: Roadway repair,HazardMode: Struck by object,1.0
+239,Act:开拓,Body:多处骨头,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Development driving,Body: Multiple bones,1.0
+240,Act:开拓,Body:腿,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Development driving,Body: Leg,1.0
+241,Act:掘进,Body:腰,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Tunneling,Body: Lower back,1.0
+242,Act:搬运,Body:腿,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Material handling,Body: Leg,1.0
+243,Act:搬运,HazardMode:崴,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Material handling,HazardMode: Sprain/twist,1.0
+244,Act:搬运,HazardMode:挤,Act,HazardMode,10.0,0.1,1.1,0.1,0.1857142857142857,Activity: Material handling,HazardMode: Squeezing,1.0
+245,Act:搬运,HazardMode:砸,Act,HazardMode,5.0,0.2,1.2,0.2,0.3714285714285714,Activity: Material handling,HazardMode: Struck by object,1.0
+246,Act:检修,Body:头,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Head,1.0
+247,Act:检修,Body:手臂,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Arm,1.0
+248,Act:检修,Body:腿,Act,Body,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Maintenance,Body: Leg,1.0
+249,Act:检修,HazardMode:摔,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Maintenance,HazardMode: Fall/slip,1.0
+250,Act:检修,HazardMode:碰,Act,HazardMode,4.0,0.25,1.25,0.25,0.4642857142857143,Activity: Maintenance,HazardMode: Collision,1.0
+251,Act:清理,HazardMode:刮,Act,HazardMode,2.0,0.5,1.5,0.5,0.9285714285714286,Activity: Cleanup,HazardMode: Scraping,1.0
+252,Act:清理,HazardMode:碰,Act,HazardMode,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Activity: Cleanup,HazardMode: Collision,1.0
+253,Act:猴车事故,Body:多处骨头,Act,Body,1.0,1.0,3.0,1.0,1.8571428571428568,Activity: Chairlift-related incident,Body: Multiple bones,1.0
+254,Act:猴车事故,HazardMode:挤,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Chairlift-related incident,HazardMode: Squeezing,1.0
+255,Act:猴车事故,HazardMode:摔,Act,HazardMode,1.0,1.0,2.0,1.0,1.8571428571428568,Activity: Chairlift-related incident,HazardMode: Fall/slip,1.0
+256,HazardMode:砸,Body:眼,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Struck by object,Body: Eye,1.0
+257,Job:运输工,Shift:夜班,Job,Shift,2.0,0.5,1.5,0.5,0.9285714285714286,Job: Transport worker,Shift: Night shift,1.0
+258,Job:班长,Shift:夜班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Work team leader,Shift: Night shift,1.0
+259,Loc:主井,Act:安装回收,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Main shaft,Activity: Installation and recovery,1.0
+260,Job:检修工,Shift:夜班,Job,Shift,5.0,0.2,1.2,0.2,0.3714285714285714,Job: Repair worker,Shift: Night shift,1.0
+261,Job:班长,Shift:早班,Job,Shift,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Job: Work team leader,Shift: Day shift,1.0
+262,InjuryForm:离断,Sev:重伤,InjuryForm,Sev,1.0,1.0,3.0,1.0,1.8571428571428568,InjuryForm: Amputation,Severity: Severe,1.0
+263,Loc:副井,Act:安装回收,Loc,Act,2.0,0.5,1.5,0.5,0.9285714285714286,Location: Auxiliary shaft,Activity: Installation and recovery,1.0
+264,Job:电瓶车司机,Shift:中班,Job,Shift,2.0,0.5,1.5,0.5,0.9285714285714286,Job: Battery-locomotive driver,Shift: Middle shift,1.0
+265,Job:副区长,Shift:中班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Deputy section chief,Shift: Middle shift,1.0
+266,Loc:主井,Act:巷修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Main shaft,Activity: Roadway repair,1.0
+267,Job:电瓶车司机,Shift:早班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Battery-locomotive driver,Shift: Day shift,1.0
+268,Loc:主井,Act:掘进,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Main shaft,Activity: Tunneling,1.0
+269,Job:机电工,Shift:夜班,Job,Shift,3.0,0.3333333333333333,1.3333333333333333,0.3333333333333333,0.6190476190476191,Job: Mechanical and electrical worker,Shift: Night shift,1.0
+270,Job:通风工,Shift:夜班,Job,Shift,1.0,1.0,3.0,1.0,1.8571428571428568,Job: Ventilation worker,Shift: Night shift,1.0
+271,HazardMode:碰,Body:手臂,HazardMode,Body,1.0,1.0,2.0,1.0,1.8571428571428568,HazardMode: Collision,Body: Arm,1.0
+272,Job:准备工,Shift:夜班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Preparation worker,Shift: Night shift,1.0
+273,Job:通风工,Shift:中班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Ventilation worker,Shift: Middle shift,1.0
+274,Job:支架工,Shift:夜班,Job,Shift,1.0,1.0,2.0,1.0,1.8571428571428568,Job: Support worker,Shift: Night shift,1.0
+275,Loc:副井,Act:检修,Loc,Act,1.0,1.0,2.0,1.0,1.8571428571428568,Location: Auxiliary shaft,Activity: Maintenance,1.0
+276,HazardMode:挤,Body:脚,HazardMode,Body,7.0,0.1428571428571428,1.1428571428571428,0.1428571428571428,0.2653061224489795,HazardMode: Squeezing,Body: Foot,0.9999999999999996
+277,HazardMode:碰,Body:手,HazardMode,Body,6.0,0.1666666666666666,1.1666666666666667,0.1666666666666666,0.3095238095238094,HazardMode: Collision,Body: Hand,0.9999999999999996
+278,Act:安装回收,HazardMode:挤,Act,HazardMode,6.0,0.1666666666666666,1.1666666666666667,0.1666666666666666,0.3095238095238094,Activity: Installation and recovery,HazardMode: Squeezing,0.9999999999999996
+279,Team:通风队,Job:检修工,Team,Job,6.0,0.1666666666666666,1.1666666666666667,0.1666666666666666,0.3095238095238094,Team: Ventilation team,Job: Repair worker,0.9999999999999996
+280,Team:准备队,Job:采煤工,Team,Job,2.0,0.0,1.0,0.0,0.0,Team: Preparation team,Job: Coal miner,0.0
+281,Act:清理,HazardMode:挤,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Cleanup,HazardMode: Squeezing,0.0
+282,Act:检修,HazardMode:砸,Act,HazardMode,2.0,0.0,1.0,0.0,0.0,Activity: Maintenance,HazardMode: Struck by object,0.0
+283,Loc:联络巷,Act:巷修,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Connection roadway,Activity: Roadway repair,0.0
+284,Loc:联络巷,Act:安装回收,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Connection roadway,Activity: Installation and recovery,0.0
+285,Loc:石门,Act:搬运,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Rock cross-cut,Activity: Material handling,0.0
+286,Loc:掘进头,Act:搬运,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Heading face,Activity: Material handling,0.0
+287,Team:修护队,Job:机电工,Team,Job,1.0,0.0,1.0,0.0,0.0,Team: Roadway support team,Job: Mechanical and electrical worker,0.0
+288,Act:行走,HazardMode:碰,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Walking,HazardMode: Collision,0.0
+289,Act:猴车事故,HazardMode:碰,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Chairlift-related incident,HazardMode: Collision,0.0
+290,Act:行走,HazardMode:崴,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Walking,HazardMode: Sprain/twist,0.0
+291,Act:清理,HazardMode:砸,Act,HazardMode,2.0,0.0,1.0,0.0,0.0,Activity: Cleanup,HazardMode: Struck by object,0.0
+292,Job:电瓶车司机,Shift:夜班,Job,Shift,1.0,0.0,1.0,0.0,0.0,Job: Battery-locomotive driver,Shift: Night shift,0.0
+293,Act:行走,HazardMode:刮,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Walking,HazardMode: Scraping,0.0
+294,Loc:石门,Act:安装回收,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Rock cross-cut,Activity: Installation and recovery,0.0
+295,Shift:早班,Loc:车场,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Day shift,Location: Siding yard,0.0
+296,Act:安装回收,Body:头,Act,Body,1.0,0.0,1.0,0.0,0.0,Activity: Installation and recovery,Body: Head,0.0
+297,Team:开拓队,Job:运输工,Team,Job,2.0,0.0,1.0,0.0,0.0,Team: Development team,Job: Transport worker,0.0
+298,Team:安装队,Job:准备工,Team,Job,2.0,0.0,1.0,0.0,0.0,Team: Installation team,Job: Preparation worker,0.0
+299,Act:开拓,HazardMode:摔,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Development driving,HazardMode: Fall/slip,0.0
+300,Loc:副井,Act:搬运,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Auxiliary shaft,Activity: Material handling,0.0
+301,Loc:副井,Act:推车,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Auxiliary shaft,Activity: Cart pushing,0.0
+302,Act:巷修,HazardMode:挤,Act,HazardMode,3.0,0.0,1.0,0.0,0.0,Activity: Roadway repair,HazardMode: Squeezing,0.0
+303,Team:采煤队,Job:准备工,Team,Job,1.0,0.0,1.0,0.0,0.0,Team: Coal mining team,Job: Preparation worker,0.0
+304,Act:巷修,HazardMode:摔,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Roadway repair,HazardMode: Fall/slip,0.0
+305,Loc:各类硐室,Act:检修,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Various chambers,Activity: Maintenance,0.0
+306,Act:巷修,HazardMode:碰,Act,HazardMode,3.0,0.0,1.0,0.0,0.0,Activity: Roadway repair,HazardMode: Collision,0.0
+307,Loc:各类硐室,Act:清理,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Various chambers,Activity: Cleanup,0.0
+308,Act:开拓,HazardMode:刮,Act,HazardMode,3.0,0.0,1.0,0.0,0.0,Activity: Development driving,HazardMode: Scraping,0.0
+309,Act:开拓,HazardMode:挤,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Development driving,HazardMode: Squeezing,0.0
+310,Team:机电队,Job:掘进工,Team,Job,1.0,0.0,1.0,0.0,0.0,Team: Mechanical and electrical team,Job: Tunneling worker,0.0
+311,Team:安装队,Job:机电工,Team,Job,2.0,0.0,1.0,0.0,0.0,Team: Installation team,Job: Mechanical and electrical worker,0.0
+312,Act:掘进,Body:肋骨,Act,Body,1.0,0.0,1.0,0.0,0.0,Activity: Tunneling,Body: Ribs,0.0
+313,Act:掘进,HazardMode:挤,Act,HazardMode,2.0,0.0,1.0,0.0,0.0,Activity: Tunneling,HazardMode: Squeezing,0.0
+314,Act:推车,HazardMode:挤,Act,HazardMode,7.0,0.0,1.0,0.0,0.0,Activity: Cart pushing,HazardMode: Squeezing,0.0
+315,Act:推车,HazardMode:碰,Act,HazardMode,2.0,0.0,1.0,0.0,0.0,Activity: Cart pushing,HazardMode: Collision,0.0
+316,Loc:回风大巷,Act:巷修,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Return airway,Activity: Roadway repair,0.0
+317,Loc:回风大巷,Act:推车,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Return airway,Activity: Cart pushing,0.0
+318,Act:搬运,HazardMode:碰,Act,HazardMode,3.0,0.0,1.0,0.0,0.0,Activity: Material handling,HazardMode: Collision,0.0
+319,Loc:抽采巷,Act:行走,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Gas drainage roadway,Activity: Walking,0.0
+320,Act:采煤,HazardMode:崴,Act,HazardMode,1.0,0.0,1.0,0.0,0.0,Activity: Coal mining,HazardMode: Sprain/twist,0.0
+321,Team:开拓队,Job:检修工,Team,Job,1.0,0.0,1.0,0.0,0.0,Team: Development team,Job: Repair worker,0.0
+322,Loc:联络巷,Act:推车,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Connection roadway,Activity: Cart pushing,0.0
+323,Shift:夜班,Loc:运输上山,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Transport uphill roadway,0.0
+324,Loc:联络巷,Act:搬运,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Connection roadway,Activity: Material handling,0.0
+325,Loc:运输大巷,Act:安装回收,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main transport roadway,Activity: Installation and recovery,0.0
+326,Job:准备工,Shift:中班,Job,Shift,3.0,0.0,1.0,0.0,0.0,Job: Preparation worker,Shift: Middle shift,0.0
+327,Loc:运输顺槽,Act:行走,Loc,Act,3.0,0.0,1.0,0.0,0.0,Location: Transport gate road,Activity: Walking,0.0
+328,HazardMode:刮,Body:胸,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Scraping,Body: Chest,0.0
+329,HazardMode:刮,Body:腿,HazardMode,Body,2.0,0.0,1.0,0.0,0.0,HazardMode: Scraping,Body: Leg,0.0
+330,InjuryForm:骨折,Sev:轻微伤,InjuryForm,Sev,2.0,0.0,1.0,0.0,0.0,InjuryForm: Fracture,Severity: Minor injury,0.0
+331,InjuryForm:聋,Sev:轻微伤,InjuryForm,Sev,1.0,0.0,1.0,0.0,0.0,InjuryForm: Hearing loss,Severity: Minor injury,0.0
+332,Loc:运输顺槽,Act:推车,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Transport gate road,Activity: Cart pushing,0.0
+333,Loc:运输顺槽,Act:巷修,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Transport gate road,Activity: Roadway repair,0.0
+334,Loc:轨道大巷,Act:巷修,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main haulage roadway,Activity: Roadway repair,0.0
+335,Loc:轨道大巷,Act:开拓,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main haulage roadway,Activity: Development driving,0.0
+336,HazardMode:碰,Body:腰,HazardMode,Body,2.0,0.0,1.0,0.0,0.0,HazardMode: Collision,Body: Lower back,0.0
+337,Loc:运输大巷,Act:开拓,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main transport roadway,Activity: Development driving,0.0
+338,Loc:轨道大巷,Act:推车,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main haulage roadway,Activity: Cart pushing,0.0
+339,HazardMode:碰,Body:下身,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Collision,Body: Lower body,0.0
+340,Loc:运输上山,Act:搬运,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Transport uphill roadway,Activity: Material handling,0.0
+341,Loc:运输上山,Act:掘进,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Transport uphill roadway,Activity: Tunneling,0.0
+342,Loc:运输上山,Act:巷修,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Transport uphill roadway,Activity: Roadway repair,0.0
+343,Loc:轨道大巷,Act:搬运,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main haulage roadway,Activity: Material handling,0.0
+344,Loc:轨道大巷,Act:清理,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Main haulage roadway,Activity: Cleanup,0.0
+345,HazardMode:摔,Body:脚,HazardMode,Body,3.0,0.0,1.0,0.0,0.0,HazardMode: Fall/slip,Body: Foot,0.0
+346,Loc:轨道顺槽,Act:猴车事故,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Track gate road,Activity: Chairlift-related incident,0.0
+347,HazardMode:摔,Body:腰,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Fall/slip,Body: Lower back,0.0
+348,Loc:轨道顺槽,Act:搬运,Loc,Act,4.0,0.0,1.0,0.0,0.0,Location: Track gate road,Activity: Material handling,0.0
+349,Loc:轨道顺槽,Act:推车,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Track gate road,Activity: Cart pushing,0.0
+350,HazardMode:砸,Body:背,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Struck by object,Body: Back,0.0
+351,HazardMode:砸,Body:胸,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Struck by object,Body: Chest,0.0
+352,HazardMode:刮,Body:手臂,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Scraping,Body: Arm,0.0
+353,HazardMode:刮,Body:手,HazardMode,Body,1.0,0.0,1.0,0.0,0.0,HazardMode: Scraping,Body: Hand,0.0
+354,Loc:采煤工作面,Act:清理,Loc,Act,2.0,0.0,1.0,0.0,0.0,Location: Coalface,Activity: Cleanup,0.0
+355,Body:腿,Sev:轻微伤,Body,Sev,13.0,0.0,1.0,0.0,0.0,Body: Leg,Severity: Minor injury,0.0
+356,Body:下身,Sev:轻微伤,Body,Sev,1.0,0.0,1.0,0.0,0.0,Body: Lower body,Severity: Minor injury,0.0
+357,Loc:联络巷,Act:行走,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Connection roadway,Activity: Walking,0.0
+358,Body:头,InjuryForm:聋,Body,InjuryForm,1.0,0.0,1.0,0.0,0.0,Body: Head,InjuryForm: Hearing loss,0.0
+359,Shift:夜班,Loc:车场,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Siding yard,0.0
+360,Shift:夜班,Loc:联络巷,Shift,Loc,2.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Connection roadway,0.0
+361,Shift:夜班,Loc:石门,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Rock cross-cut,0.0
+362,Body:头,Sev:轻微伤,Body,Sev,4.0,0.0,1.0,0.0,0.0,Body: Head,Severity: Minor injury,0.0
+363,Body:手,Sev:轻微伤,Body,Sev,38.0,0.0,1.0,0.0,0.0,Body: Hand,Severity: Minor injury,0.0
+364,Shift:夜班,Loc:抽采巷,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Gas drainage roadway,0.0
+365,Body:手臂,Sev:轻微伤,Body,Sev,1.0,0.0,1.0,0.0,0.0,Body: Arm,Severity: Minor injury,0.0
+366,Shift:夜班,Loc:各类硐室,Shift,Loc,2.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Various chambers,0.0
+367,Shift:夜班,Loc:副井,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Night shift,Location: Auxiliary shaft,0.0
+368,Loc:车场,Act:推车,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Siding yard,Activity: Cart pushing,0.0
+369,Loc:车场,Act:搬运,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Siding yard,Activity: Material handling,0.0
+370,Body:眼,Sev:轻微伤,Body,Sev,7.0,0.0,1.0,0.0,0.0,Body: Eye,Severity: Minor injury,0.0
+371,Body:肋骨,Sev:轻微伤,Body,Sev,2.0,0.0,1.0,0.0,0.0,Body: Ribs,Severity: Minor injury,0.0
+372,Job:准备工,Shift:早班,Job,Shift,1.0,0.0,1.0,0.0,0.0,Job: Preparation worker,Shift: Day shift,0.0
+373,Body:背,Sev:轻微伤,Body,Sev,2.0,0.0,1.0,0.0,0.0,Body: Back,Severity: Minor injury,0.0
+374,Shift:中班,Loc:联络巷,Shift,Loc,1.0,0.0,1.0,0.0,0.0,Shift: Middle shift,Location: Connection roadway,0.0
+375,Body:胸,Sev:轻微伤,Body,Sev,3.0,0.0,1.0,0.0,0.0,Body: Chest,Severity: Minor injury,0.0
+376,Shift:中班,Loc:开拓迎头,Shift,Loc,3.0,0.0,1.0,0.0,0.0,Shift: Middle shift,Location: Development face,0.0
+377,Shift:中班,Loc:回风大巷,Shift,Loc,2.0,0.0,1.0,0.0,0.0,Shift: Middle shift,Location: Return airway,0.0
+378,Body:脚,Sev:轻微伤,Body,Sev,31.0,0.0,1.0,0.0,0.0,Body: Foot,Severity: Minor injury,0.0
+379,Loc:副井,Act:清理,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Auxiliary shaft,Activity: Cleanup,0.0
+380,Body:腰,Sev:轻微伤,Body,Sev,3.0,0.0,1.0,0.0,0.0,Body: Lower back,Severity: Minor injury,0.0
+381,Loc:副井,Act:行走,Loc,Act,1.0,0.0,1.0,0.0,0.0,Location: Auxiliary shaft,Activity: Walking,0.0
